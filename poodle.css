@@ -1,0 +1,72 @@
+body {
+    display: flex;
+
+    
+    flex-direction: column;
+    font-size: 14px;
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+}
+
+input[type="text"] {
+    border-radius: 20px;
+    padding: 5px; 
+    padding-left: 20px;
+    border: 1px solid #d9dbe0; /*#dfe1e5; */
+    width: auto;
+    min-width: 600px;
+    min-height: 30px;
+    color: #202124;
+  }
+
+  input[type="submit"] {
+    /* ATTRIBUTES CAN BE FOUND BY INSPECTING REAL GOOGLE SEARCH PAGE BUTTONS */
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px; 
+    color: #3c4043;
+    font-family: Roboto, arial, sans-serif;
+    margin: 11px 4px;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+.advanced-search {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px;
+}
+
+a {
+    padding: 10px;
+    color: rgba(0,0,0,.87);
+    text-decoration: none; /*Inspect Google home page for these details*/
+}
